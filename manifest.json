@@ -1,7 +1,7 @@
 {
   "name": "TryBook",
   "short_name": "TryBook",
-  "start_url": "/trybook/",  // Must match your GitHub Pages path!
+  "start_url": "/trybook/index.html",  // Or just "index.html" if testing locally
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
@@ -9,12 +9,12 @@
     {
       "src": "6.jpg",
       "sizes": "192x192",
-      "type": "image/jpg"
+      "type": "image/jpeg"
     },
     {
-      "src": "6.jpg",
+      "src": "7.jpg",
       "sizes": "512x512",
-      "type": "image/jpg"
+      "type": "image/jpeg"
     }
   ]
 }
