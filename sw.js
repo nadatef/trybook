@@ -1,7 +1,7 @@
 const CACHE_NAME = 'trybook-v1';
 const urlsToCache = [
   '/trybook/',
-  '/trybook/index.html',
+  '/trybook/index.htm',
   '/trybook/manifest.json',
   '/trybook/sw.js',
   '/trybook/icon-192x192.png',
