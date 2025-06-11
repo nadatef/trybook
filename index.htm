@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Load manifest.json -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Register Service Worker -->
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+        .then(() => console.log('Service Worker Registered'));
+    }
+    </script>
+</head>
+<body>
+   <h1> Hello I'm trying the PWA</h1> 
+   <a href = https://learnenglishkids.britishcouncil.org/grammar-vocabulary/word-games> Click here </a>
+</body>
+</html>
