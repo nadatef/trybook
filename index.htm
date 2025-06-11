@@ -3,20 +3,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Manifest -->
+<link rel="manifest" href="/trybook/manifest.json">
 
-    <!-- Load manifest.json -->
-    <link rel="manifest" href="/manifest.json">
+<!-- Theme Color (for mobile) -->
+<meta name="theme-color" content="#000000"/>
 
-    <!-- Register Service Worker -->
-    <script>
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
-        .then(() => console.log('Service Worker Registered'));
-    }
-    </script>
+<!-- Service Worker Registration -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/trybook/sw.js')
+      .then(reg => console.log('SW registered!'))
+      .catch(err => console.log('SW failed: ', err));
+  }
+</script>
 </head>
 <body>
    <h1> Hello I'm trying the PWA</h1> 
