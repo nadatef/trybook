@@ -1,7 +1,7 @@
 {
-  "name": "My Flipbook PWA",
-  "short_name": "Flipbook",
-  "start_url": "/",
+  "name": "TryBook",
+  "short_name": "TryBook",
+  "start_url": "/trybook/",  // Must match your GitHub Pages path!
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
